@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "933713803951",
+    "project_id": "futon-9e2fa",
+    "storage_bucket": "futon-9e2fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933713803951:android:05d548f8e442637de8f25a",
+        "android_client_info": {
+          "package_name": "com.scluckas.FutON"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933713803951-q1gaj0gh7brc8lufkb5ibtrusaa293vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnKv5XiQPoXheDVGx7abdV5i6CNyCVX4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933713803951-q1gaj0gh7brc8lufkb5ibtrusaa293vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

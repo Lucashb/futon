@@ -1,0 +1,71 @@
+{
+  "name": "FutON",
+  "slug": "FutON",
+  "scheme": "projetoFutON",
+  "version": "1.0.0",
+  "currentFullName": "@scluckas/FutON",
+  "originalFullName": "@scluckas/FutON",
+  "expo": {
+    "name": "FutON",
+    "slug": "FutON",
+    "currentFullName": "@scluckas/FutON",
+    "originalFullName": "@scluckas/FutON",
+    "scheme": "projetFutON",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#12131C"
+    },
+    "notification": {
+      "icon": "./assets/iconNotificacao.png",
+      "color": "#D3B417"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/iconNotificacao.png",
+          "color": "#D3B417"
+        }
+      ]
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#12131C"
+      },
+      "versionCode": 1,
+      "package": "com.scluckas.FutON",
+      "permissions": [],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-7510279083155970~8163831719"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d41ce9a8-88e6-4801-8293-99c5a1c5fbd4"
+      }
+    }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-7510279083155970~8163831719",
+    "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx",
+    "delay_app_measurement_init": true
+  }
+}
